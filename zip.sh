@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [ -f ./zip.sh ]
+if [ -f ./*.zip ]
 then
-	rm -rf ./zip.sh
+	rm -rf ./*.zip
 fi
 
 node install
